@@ -20,3 +20,8 @@ src1/com/example/Main.java:18: error: cannot find symbol
   location: class Main
 2 errors
 ============================================================
+
+
+may be related
+https://bugs.openjdk.java.net/browse/JDK-7191796
+http://bugs.java.com/bugdatabase/view_bug.do?bug_id=7177813
