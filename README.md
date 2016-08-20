@@ -1,1 +1,1 @@
-# javac-inner-annotaions-imports
+# clone and ./runme at the git root directory
