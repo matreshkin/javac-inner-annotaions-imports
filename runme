@@ -1,0 +1,25 @@
+#!/bin/bash
+
+javac -version
+echo $JAVA_HOME
+echo
+mkdir out
+mkdir out1
+echo
+echo "============================================================"
+echo "    Compiling src (regular imports)..."
+javac -d out src/com/example/*.java
+if [ "$?" = "0" ]; then
+  echo "    ...OK!" 1>&2
+fi
+
+echo "============================================================"
+echo
+echo "============================================================"
+
+echo "    Compiling src1 (Second.java has static import)..."
+javac -d out1 src1/com/example/*.java
+if [ "$?" = "0" ]; then
+  echo "======     ...OK!" 1>&2
+fi
+echo "============================================================"
